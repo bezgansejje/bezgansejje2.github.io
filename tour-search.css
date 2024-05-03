@@ -1,0 +1,442 @@
+ .u-section-1 {
+  min-height: 119px;
+}
+
+.u-section-1 .u-group-1 {
+  height: auto;
+  min-height: 119px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 118px;
+  width: 1234px;
+  margin: 1px auto 0;
+}
+
+.u-section-1 .u-form-group-1 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-1 {
+  --radius: 8px;
+}
+
+.u-section-1 .u-form-group-2 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-2 {
+  --radius: 8px;
+}
+
+.u-section-1 .u-form-group-3 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-3 {
+  --radius: 8px;
+}
+
+.u-section-1 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-4 {
+  --radius: 8px;
+}
+
+.u-section-1 .u-form-group-5 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-5 {
+  --radius: 8px;
+}
+
+.u-section-1 .u-form-group-6 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-6 {
+  --radius: 8px;
+}
+
+.u-section-1 .u-btn-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: none;
+  font-weight: 700;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 940px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-form-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+}.u-block-b89f-5 {
+  position: absolute;
+  inset: auto calc(50% - 59.2751px) 35px auto;
+}
+
+.u-block-b89f-3 {
+  position: absolute;
+  left: 0;
+}
+
+.u-block-b89f-4 {
+  position: absolute;
+  right: 0;
+}
+
+ .u-section-2-1 {
+  background-image: url("images/1701255126_sportishka-com-p-dubai-plyazh-dzhumeira-krasivo-1.jpg");
+  background-position: 50% 50%;
+  min-height: 593px;
+}
+
+.u-section-2-1 .u-group-1 {
+  width: 498px;
+  min-height: 322px;
+  background-image: none;
+  height: auto;
+  margin: 55px calc(((100% - 1140px) / 2)) 60px auto;
+}
+
+.u-section-2-1 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-2-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 3.125rem;
+  margin: 12px auto 0;
+}
+
+.u-section-2-1 .u-text-2 {
+  font-size: 1.875rem;
+  margin: 7px 54px 0;
+}
+
+.u-section-2-1 .u-text-3 {
+  width: 388px;
+  margin: 23px auto 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-2-1 {
+    min-height: 489px;
+  }
+
+  .u-section-2-1 .u-group-1 {
+    margin-right: calc(((100% - 940px) / 2)  + 87px);
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-2-1 {
+    min-height: 375px;
+  }
+
+  .u-section-2-1 .u-group-1 {
+    margin-right: auto;
+    margin-left: calc(((100% - 720px) / 2)  + 25px);
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-2-1 {
+    min-height: 281px;
+  }
+
+  .u-section-2-1 .u-group-1 {
+    margin-left: 0;
+  }
+
+  .u-section-2-1 .u-text-2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-2-1 {
+    min-height: 177px;
+  }
+
+  .u-section-2-1 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-2-1 .u-text-1 {
+    font-size: 3rem;
+  }
+
+  .u-section-2-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2-1 .u-text-3 {
+    width: 340px;
+  }
+}
+
+ .u-section-2-2 {
+  background-image: url("images/1-53.jpg");
+  background-position: 50% 50%;
+  min-height: 592px;
+}
+
+.u-section-2-2 .u-group-1 {
+  width: 498px;
+  min-height: 378px;
+  background-image: none;
+  height: auto;
+  margin: 60px calc(((100% - 1140px) / 2)  + 28px) 0 auto;
+}
+
+.u-section-2-2 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-2-2 .u-text-1 {
+  font-weight: 700;
+  font-size: 2.75rem;
+  margin: 12px 0 0 18px;
+}
+
+.u-section-2-2 .u-text-2 {
+  font-size: 1.5rem;
+  margin: 7px 54px 0;
+}
+
+.u-section-2-2 .u-text-3 {
+  width: 388px;
+  margin: 23px auto 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-2-2 {
+    min-height: 488px;
+  }
+
+  .u-section-2-2 .u-group-1 {
+    margin-top: 15px;
+    margin-right: calc(((100% - 940px) / 2)  + 87px);
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-2-2 {
+    min-height: 374px;
+  }
+
+  .u-section-2-2 .u-group-1 {
+    margin-top: 41px;
+    margin-right: auto;
+    margin-left: calc(((100% - 720px) / 2)  + 25px);
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-2-2 {
+    min-height: 281px;
+  }
+
+  .u-section-2-2 .u-group-1 {
+    margin-top: 435px;
+    margin-left: 0;
+  }
+
+  .u-section-2-2 .u-text-2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-2-2 {
+    min-height: 177px;
+  }
+
+  .u-section-2-2 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-2-2 .u-text-1 {
+    margin-left: 0;
+  }
+
+  .u-section-2-2 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2-2 .u-text-3 {
+    width: 340px;
+  }
+}
+
+ .u-section-2-3 {
+  background-image: url("images/1649271317_5-vsegda-pomnim-com-p-plyazh-barseloneta-foto-5.jpg");
+  background-position: 50% 50%;
+  min-height: 592px;
+}
+
+.u-section-2-3 .u-group-1 {
+  width: 498px;
+  min-height: 318px;
+  background-image: none;
+  height: auto;
+  margin: 103px auto 60px calc(((100% - 1140px) / 2)  + 37px);
+}
+
+.u-section-2-3 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-2-3 .u-text-1 {
+  font-weight: 700;
+  font-size: 2.6875rem;
+  margin: 12px 12px 0;
+}
+
+.u-section-2-3 .u-text-2 {
+  font-size: 1.5rem;
+  width: 390px;
+  margin: 12px auto 0;
+}
+
+.u-section-2-3 .u-text-3 {
+  width: 388px;
+  margin: 19px auto 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-2-3 {
+    min-height: 488px;
+  }
+
+  .u-section-2-3 .u-group-1 {
+    margin-right: calc(((100% - 940px) / 2)  + 87px);
+    margin-left: calc(((100% - 940px) / 2) + 37px);
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-2-3 {
+    min-height: 374px;
+  }
+
+  .u-section-2-3 .u-group-1 {
+    margin-right: auto;
+    margin-left: calc(((100% - 720px) / 2)  + 25px);
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-2-3 {
+    min-height: 281px;
+  }
+
+  .u-section-2-3 .u-group-1 {
+    margin-left: 0;
+  }
+
+  .u-section-2-3 .u-text-2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-2-3 {
+    min-height: 177px;
+  }
+
+  .u-section-2-3 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-2-3 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2-3 .u-text-2 {
+    width: 340px;
+  }
+
+  .u-section-2-3 .u-text-3 {
+    width: 340px;
+  }
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.left-arrow {
+  margin-right: 5px;
+}
+
+.right-arrow {
+  margin-left: 5px;
+}
+
+.u-form-select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.arrow-left, .arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: black;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+ color:blue
+}
+
+.arrow-left {
+  left: 5px;
+}
+
+.arrow-right {
+  right: 5px;
+}
+
+.u-form-select-wrapper select {
+  text-align: center; /* Центрирование текста внутри поля */
+}
