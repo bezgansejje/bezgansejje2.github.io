@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Авторизация и работа с cookie</title>
+</head>
+<body>
+  <!-- Форма для входа -->
+  <h2>Войти</h2>
+  <form id="loginForm">
+    <label for="login">Логин:</label>
+    <input type="text" id="login" name="login" required><br><br>
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <label for="secretWord">Секретное слово:</label>
+    <input type="text" id="secretWord" name="secretWord" required><br><br>
+    <button type="submit">Войти</button>
+  </form>
+
+  <!-- Форма для получения данных из cookie -->
+  <h2>Получить данные из cookie</h2>
+  <form id="getCookieForm">
+    <label for="sessionSecretWord">Секретное слово:</label>
+    <input type="text" id="sessionSecretWord" name="sessionSecretWord" required><br><br>
+    <button type="submit">Получить данные</button>
+  </form>
+
+  <!-- JavaScript-код для работы с cookie -->
+  <script>
+    // Функция для установки куки
+    function setCookie(name, value, days) {
+      var expires = "";
+      if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+      }
+      // Устанавливаем куки с помощью document.cookie
+      document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+
+    // Функция для получения куки по имени
+    function getCookie(name) {
+      var nameEQ = name + "=";
+      var cookies = document.cookie.split(';');
+      for(var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        while (cookie.charAt(0) === ' ') {
+          cookie = cookie.substring(1, cookie.length);
+        }
+        if (cookie.indexOf(nameEQ) === 0) {
+          // Возвращаем значение куки
+          return cookie.substring(nameEQ.length, cookie.length);
+        }
+      }
+      return null;
+    }
+
+    // Функция для удаления куки по имени
+    function deleteCookie(name) {
+      // Удаляем куки путем установки срока действия в прошлое время
+      document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    }
+
+    // Обработчик события отправки формы для входа
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      var login = document.getElementById("login").value;
+      var password = document.getElementById("password").value;
+      var secretWord = document.getElementById("secretWord").value;
+      
+      // Проверяем введенные данные (здесь может быть ваша логика проверки)
+      
+      // Устанавливаем cookie на 2 дня
+      setCookie("login", login, 2);
+      setCookie("password", password, 2);
+      setCookie("secretWord", secretWord, 2);
+
+      alert("Вы успешно вошли! Данные сохранены в cookie на 2 дня.");
+    });
+
+    // Обработчик события отправки формы для получения данных из cookie
+    document.getElementById("getCookieForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      var sessionSecretWord = document.getElementById("sessionSecretWord").value;
+      var storedSecretWord = getCookie("secretWord");
+
+      if (sessionSecretWord === storedSecretWord) {
+        // Если секретное слово совпадает, получаем данные из cookie и выводим их
+        var storedLogin = getCookie("login");
+        var storedPassword = getCookie("password");
+        alert("Логин: " + storedLogin + "\nПароль: " + storedPassword);
+      } else {
+        // Если секретное слово не совпадает, выводим сообщение об ошибке
+        alert("Неверное секретное слово!");
+      }
+    });
+  </script>
+</body>
+</html>
